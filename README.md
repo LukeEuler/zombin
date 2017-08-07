@@ -24,6 +24,8 @@
 最后设 accuracy为tail将首位非零数值设为1后将其余位置零的数值。例如，当tail取0.0314时，accuracy取0.01。
 
 此时结论就很明朗了。
-y_interval = interval - interval%accuracy + accuracy
-y_min = amin - amin%accuracy
-y_max = y_min + y_interval*n
+- y_interval = interval - interval%accuracy + accuracy
+- y_min = amin - amin%accuracy
+- y_max = y_min + y_interval*n
+
+> 该项目并未考虑在数据变化时（时序数据比较多），坐标系的稳定性问题。有切实需求，或者本人有兴致时会改进 :)

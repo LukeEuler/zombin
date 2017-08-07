@@ -1,6 +1,6 @@
 [package]
 name = "zombin"
 version = "0.1.0"
-authors = ["LukeEuler <513973890@qq.com>"]
+authors = ["LukeEuler <luke16time@gmail.com>"]
 
 [dependencies]
